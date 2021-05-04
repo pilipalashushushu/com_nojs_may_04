@@ -1,0 +1,18 @@
+var x1 = Boolean(100);
+console.log(x1);
+var x2 = Boolean(0);
+console.log(x2);
+var x3 = Boolean(-1);
+console.log(x3);
+var x4 = Boolean("true");
+console.log(x4);
+var x5 = Boolean("false");
+console.log(x5);
+var x6 = Boolean("");
+console.log(x6);
+var x7 = Boolean(NaN);
+console.log("x7=", x7);
+var x8 = Boolean(null);
+console.log("x8=", x8);
+var x9 = Boolean(undefined);
+console.log("x9=", x9);
