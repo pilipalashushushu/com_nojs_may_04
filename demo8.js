@@ -16,3 +16,5 @@ var x8 = Boolean(null);
 console.log("x8=", x8);
 var x9 = Boolean(undefined);
 console.log("x9=", x9);
+var x10 = Boolean(NaN);
+console.log("x10=", x10);

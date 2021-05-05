@@ -1,0 +1,151 @@
+download node.js
+
+https://nodejs.org/en/
+
+set path
+Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;
+Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm
+using default to install
+
+C:\Users\Admin\AppData\Roaming\npm
+;C:\Program Files\nodejs\
+
+close all cmd, re-open cmd
+
+npm --version
+node --version
+
+node
+ctrl+D
+
+node
+
+3+5
+console.log(3+5)
+
+https://www.jetbrains.com/webstorm/
+
+https://code.visualstudio.com/docs/?dv=win
+
+npm config list
+
+npm config get prefix
+
+npm config ls -l
+
+npx --version
+
+https://create-react-app.dev/docs/getting-started/
+
+
+npm --version
+npm install npm --global
+
+npm --version
+npx --version
+npm list --global
+npm list
+
+npm install node-red --global
+npm list --global
+npm list --global --depth=0
+npm list --global --depth=1
+npm list --global --depth=2
+npm install -g uglifyjs
+
+npm list --global --depth=0
+
+mkdir nodejs_May_4_May_5
+code nodejs_May_4_May_5
+
+npm install -g uglify-js
+
+demo1.js
+~~~~~~~~~~~~~~~~~~~~
+var object1 = {
+    "foo": 1,
+    bar: 3
+}
+object1.foo += object1.bar;
+console.log(object1.foo);
+~~~~~~~~~~~~~~~~~~~~~~~~~
+node demo1.js
+
+ctrl+, ctrl-, ctrl0 (zero)
+
+https://github.com/adobe-fonts/source-code-pro
+
+
+'Source Code Pro',Consolas, 'Courier New'
+
+{
+    "editor.fontSize": 24,
+    "editor.fontFamily": "'Source Code Pro',Consolas, 'Courier New'"
+}
+
+{
+    "editor.fontSize": 28,
+    "editor.fontFamily": "'Source Code Pro Semibold',Consolas, 'Courier New'"
+}
+
+
+{
+    "editor.fontSize": 28,
+    "editor.fontFamily": "'Source Code Pro Semibold',Consolas, 'Courier New'",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    
+}
+
+
+where uglifyjs
+uglifyjs demo1.js
+uglifyjs demo1.js --mangle-props
+
+uglifyjs demo1.js --mangle-props > demo1.min.js
+node demo1.min.js
+
+https://mochajs.org/
+~~~~~~~~~~~~~~~~~~~~~
+{
+    "editor.fontSize": 28,
+    "editor.fontFamily": "'Source Code Pro Semibold',Consolas, 'Courier New'",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.fontSize": 28
+}
+~~~~~~~~~~~~~~~~~~~~~~~
+npm cache clean <-- (X)
+npm cache verify
+
+mkdir demo2
+cd demo2
+npm init
+npm init --yes
+code .
+
+
+npm install request
+npm install mocha
+(if node_modules not found)
+npm install
+
+demo2_use_require.js
+
+~~~~~~~~~~~~~~~~~~~~~~~
+var request = require('request');
+const url = "https://www.uuu.com.tw"
+request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+        console.log(body);
+    } else {
+        console.log(error)
+        console.log(response.statusCode)
+        console.log(body)
+    }
+})
+~~~~~~~~~~~~~~~~~~~~~~
+node demo2_use_require.js
+
+
+npm list
+
+npm list -g
